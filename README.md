@@ -5,8 +5,22 @@ Author : DanYan
 
 Nous sommes dans un environnement Linux ou dans le WSL sur windows
 - Toujours mettre a jour les dependances Linux
-0 - sudo apt update
 
-Dans un terminal, installer poetry via la commande suivante : 
 
-1 - sudo apt install python3-poetry
+```   sudo apt update ```
+
+- Dans un terminal, installer poetry via la commande suivante : 
+
+``` sudo apt install python3-poetry ```
+
+- cloner le projet 
+
+ ``` git clone git@github.com:DANIELADIKO/test-flask-poetry.git```
+
+- A l'interieur du projet, installer les dependances necessaires pour son fonctionnement
+
+ ``` poetry install ```
+
+- Lancer le projet avec la commande : 
+
+``` poetry run start ```
